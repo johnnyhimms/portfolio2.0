@@ -1,0 +1,101 @@
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+p {
+  margin: 0 auto; }
+
+i {
+  cursor: pointer; }
+
+.lft {
+  height: 100vh;
+  width: 40%;
+  background-color: #ccc;
+  float: left;
+  position: fixed;
+  padding: 25% 30px; }
+  .lft h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin: 0 auto; }
+  .lft p {
+    font-family: 'Slabo 27px', serif;
+    line-height: 25px;
+    max-width: 420px;
+    display: block;
+    padding: 10px 10px 10px 0; }
+  .lft .redBorder {
+    border-right: 5px solid #dc9494;
+    width: 100%; }
+
+.rght {
+  width: calc(60% - 60px);
+  float: right; }
+  .rght section {
+    height: 450px;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4); }
+
+.btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  height: 36px;
+  line-height: 36px;
+  padding: 2px 15px;
+  text-transform: capitalize;
+  font-style: italic;
+  border-radius: 2px;
+  outline: 0;
+  cursor: pointer;
+  will-change: opacity, transform;
+  transition: .3s ease-out;
+  font-family: 'Playfair Display', serif;
+  clear: both; }
+  .btn:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    opacity: .7;
+    will-change: opacity, transform;
+    transition: .3s ease-out; }
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center; }
+  .img-container img {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto; }
+
+.t-l {
+  position: absolute;
+  top: 2rem;
+  left: 2rem; }
+
+.b-l {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem; }
+
+.b-r {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem; }
+
+.flt {
+  float: left; }
+
+.frt {
+  float: right; }
+
+.blue {
+  background-color: #5d95a1;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
